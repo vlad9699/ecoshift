@@ -1,0 +1,7 @@
+{
+  "name": "ECOSHIFT",
+  "description": "A real-world grounded eco-strategy game. Scan real cities using Gemini & Google Maps to find polluted zones, then deploy drone fleets to restore them.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

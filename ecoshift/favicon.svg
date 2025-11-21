@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGradient)" stroke="#10b981" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main leaf shape -->
+  <path d="M 32 12 Q 20 18, 18 28 Q 16 38, 22 46 Q 28 54, 32 52 Q 36 54, 42 46 Q 48 38, 46 28 Q 44 18, 32 12 Z" 
+        fill="url(#leafGradient)" 
+        stroke="#34d399" 
+        stroke-width="1.5"
+        opacity="0.9"/>
+  
+  <!-- Leaf vein -->
+  <path d="M 32 12 L 32 52" 
+        stroke="#34d399" 
+        stroke-width="1" 
+        opacity="0.6"/>
+  <path d="M 32 20 Q 26 24, 24 28" 
+        stroke="#34d399" 
+        stroke-width="0.8" 
+        fill="none"
+        opacity="0.5"/>
+  <path d="M 32 20 Q 38 24, 40 28" 
+        stroke="#34d399" 
+        stroke-width="0.8" 
+        fill="none"
+        opacity="0.5"/>
+  
+  <!-- Sci-fi accent dots -->
+  <circle cx="28" cy="24" r="1.5" fill="#34d399" opacity="0.8"/>
+  <circle cx="36" cy="24" r="1.5" fill="#34d399" opacity="0.8"/>
+  <circle cx="32" cy="30" r="1.5" fill="#34d399" opacity="0.8"/>
+</svg>
+
