@@ -82,6 +82,7 @@ Three categories of upgrades for different vehicle types:
 - **TypeScript 5.8.2** — code typing
 - **Vite 6.2.0** — build tool and development server
 - **React DOM 19.2.0** — React rendering
+- **HTML5 Canvas** — 2D graphics rendering for all mini-games
 
 ### UI & Icons
 - **lucide-react 0.554.0** — icon library
@@ -107,7 +108,7 @@ Three categories of upgrades for different vehicle types:
 ### Prerequisites
 - **Node.js** (version 18 or higher)
 - **npm** or **yarn**
-- **Google Gemini API key** (get one at [Google AI Studio](https://makersuite.google.com/app/apikey))
+- **Google Gemini API key**
 
 ### Step 1: Clone the Repository
 ```bash
